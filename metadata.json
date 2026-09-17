@@ -1,0 +1,6 @@
+{
+  "name": "RightFieldFinder",
+  "description": "An interactive career and field selection quiz for students worldwide to discover their ideal academic field.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
