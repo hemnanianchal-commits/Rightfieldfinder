@@ -23,6 +23,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://rightfieldfinder.com'),
+   verification: {
+    google: '<meta name="google-site-verification" content="y4lN0VyB157omt4zTMEJ0HhoR6li0sUz07kSpfBOnRY" />',
+  },
 };
 
 export default function RootLayout({
