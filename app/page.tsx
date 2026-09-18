@@ -44,7 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
       images: ['https://rightfieldfinder.com/og-image.png'],
     },
     verification: {
-      google: 'google-site-verification-placeholder',
+      google: 'y4lN0VyB157omt4zTMEJ0HhoR6li0sUz07kSpfBOnRY',
     },
   };
 }
