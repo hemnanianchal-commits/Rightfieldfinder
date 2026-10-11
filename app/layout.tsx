@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://rightfieldfinder.com'),
+  metadataBase: new URL('https://rightfieldfinder.vercel.app'),
  
 };
 
