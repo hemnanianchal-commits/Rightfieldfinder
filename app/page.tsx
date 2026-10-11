@@ -6,7 +6,7 @@ import { GUIDE_TIPS } from '@/src/data/simpleQuizData';
 export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL('https://rightfieldfinder.vercel.app'),
-    title: 'Which Field Is Right for Me? Free Student Career Quiz',
+    title: 'Which Field Is Right for Me? Free Career Quiz for Students',
     description:
       'Take our free 90-second career quiz for high school and pre-university students. Answer 8 simple questions to find your ideal field and next steps.',
     keywords: [
