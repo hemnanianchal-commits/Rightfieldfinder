@@ -155,6 +155,28 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+                <section className="py-16 px-4 sm:px-6 max-w-3xl mx-auto border-t border-gray-200/80">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1A202C] mb-4">
+            How do I know which field is right for me?
+          </h2>
+          <p className="text-base text-[#4A5568] leading-relaxed mb-6">
+            To find the field that is right for you, list the subjects you enjoy, notice how you like to work (alone or in a team, creative or logical), and match them to fields like Engineering, Medical, Computer Science, Business, Design or Social Sciences. A free career quiz does this in about 90 seconds.
+          </p>
+          <ol className="list-decimal pl-6 space-y-2 text-[#4A5568] mb-12">
+            <li>Write down the 3 subjects you enjoy most.</li>
+            <li>Decide how you like to work: alone or in a team, creative or logical.</li>
+            <li>Take the free career quiz above to see your best-fit field.</li>
+            <li>Talk to one person already working in that field.</li>
+            <li>Pick a direction, and adjust later if needed.</li>
+          </ol>
+
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1A202C] mb-4">
+            What tech career is right for me?
+          </h2>
+          <p className="text-base text-[#4A5568] leading-relaxed">
+            If you enjoy logic, problem solving and building things, Computer Science or Engineering is usually the best fit. If you prefer visuals and creativity, look at Design. Take the free quiz above to get a personalized answer.
+          </p>
+        </section>
       </main>
 
       {/* 6. Simple Footer (Site name, one line description, no extra links) */}
