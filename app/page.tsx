@@ -5,7 +5,7 @@ import { GUIDE_TIPS } from '@/src/data/simpleQuizData';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    metadataBase: new URL('https://rightfieldfinder.com'),
+    metadataBase: new URL('https://rightfieldfinder.vercel.app'),
     title: 'Which Field Is Right for Me? Free Student Career Quiz',
     description:
       'Take our free 90-second career quiz for high school and pre-university students. Answer 8 simple questions to find your ideal field and next steps.',
@@ -18,18 +18,18 @@ export async function generateMetadata(): Promise<Metadata> {
       'choose academic field',
     ],
     alternates: {
-      canonical: 'https://rightfieldfinder.com/',
+      canonical: 'https://rightfieldfinder.vercel.app/',
     },
     openGraph: {
       type: 'website',
-      url: 'https://rightfieldfinder.com/',
+      url: 'https://rightfieldfinder.vercel.app/',
       title: 'Which Field Is Right for Me? Free Student Career Quiz',
       description:
         'Find your ideal field in under 90 seconds. Answer 8 simple questions to get a personalized field match.',
       siteName: 'RightFieldFinder',
       images: [
         {
-          url: 'https://rightfieldfinder.com/og-image.png',
+          url: 'https://rightfieldfinder.vercel.app/og-image.png',
           width: 1200,
           height: 630,
           alt: 'RightFieldFinder - Find the field that fits you',
@@ -41,7 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: 'Which Field Is Right for Me? Free Student Career Quiz',
       description:
         'Find your ideal field in under 90 seconds. Answer 8 simple questions to get a personalized field match.',
-      images: ['https://rightfieldfinder.com/og-image.png'],
+      images: ['https://rightfieldfinder.vercel.app/og-image.png'],
     },
     verification: {
       google: 'y4lN0VyB157omt4zTMEJ0HhoR6li0sUz07kSpfBOnRY',
@@ -55,7 +55,7 @@ export default function HomePage() {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'RightFieldFinder',
-      url: 'https://rightfieldfinder.com/',
+      url: 'https://rightfieldfinder.vercel.app/',
       description:
         'An interactive career and field selection quiz for high school and pre-university students worldwide.',
     },
@@ -63,7 +63,7 @@ export default function HomePage() {
       '@context': 'https://schema.org',
       '@type': 'WebApplication',
       name: 'RightFieldFinder Career Quiz',
-      url: 'https://rightfieldfinder.com/',
+      url: 'https://rightfieldfinder.vercel.app/',
       applicationCategory: 'EducationalApplication',
       operatingSystem: 'Any',
       browserRequirements: 'Requires JavaScript',
