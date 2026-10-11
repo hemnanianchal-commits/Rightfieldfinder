@@ -190,8 +190,8 @@ export default function QuizApp() {
         </h1>
 
         <p className="text-base sm:text-xl text-[#4A5568] max-w-2xl mx-auto leading-relaxed mb-10">
-          Answer 8 simple questions about what you enjoy and how you think. Get an instant, personalized field recommendation to guide your high school and pre-university decisions.
-        </p>
+  Not sure which field is right for you? Take this free career quiz for students. Answer 8 simple questions about what you enjoy and how you think, and get your best-fit field in under 90 seconds.
+</p>
 
         {/* ONE and ONLY "Start Quiz" button on the page */}
         <div className="mb-14">
